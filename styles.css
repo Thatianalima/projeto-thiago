@@ -22,7 +22,7 @@ h1 {
 }
 
 .thiago {
-    width: 250px;
+    width: 300px;
     border-radius: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -78,4 +78,18 @@ video {
     top: 0;
     background: linear-gradient(109deg, rgba(17, 20, 27, 0.99) 15%, rgba(32, 30, 32, 0.4) 50%, rgba(14, 17, 22, 0.99) 85%);
     ;
+}
+
+@media(max-width:1300px) {
+    .video-principal{
+        width: auto;
+    }
+.mascara-video{
+    position: absolute;
+}
+h1{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
 }
